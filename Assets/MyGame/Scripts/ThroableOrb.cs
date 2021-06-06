@@ -10,10 +10,19 @@ public class ThroableOrb : MonoBehaviour
     public GameObject target;
     public Vector3 defaultPos; 
     AudioSource source;
-    bool isBeingThrown = false; 
+    bool isBeingThrown = false;
+
+    GameObject[] BridgePieces;
 
     private void Start()
     {
+        BridgePieces = GameObject.FindGameObjectsWithTag("BridgePiece");
+        print(BridgePieces.Length.ToString());
+        foreach (GameObject piece in BridgePieces)
+        {
+            piece.SetActive(false);
+        }
+          print(BridgePieces.Length.ToString());
         defaultPos = gameObject.transform.position; 
         source = GetComponent<AudioSource>(); 
     }
@@ -31,6 +40,12 @@ public class ThroableOrb : MonoBehaviour
             print("collide with target");
             source.clip = hitSound;
             source.Play();
+           
+   
+            foreach (GameObject piece in BridgePieces)
+            {
+                piece.SetActive(true);
+            }
 
         }
         else if (isBeingThrown)

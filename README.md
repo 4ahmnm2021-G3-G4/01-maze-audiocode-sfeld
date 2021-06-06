@@ -1,8 +1,15 @@
-# 01-maze-audiocode-smeerws
+# 01-maze-audiocode-sfeld
 
 ### Project description: 
-This project serves as sample project for spatial audio. 
-Explore sound in its basics in virtual reality (VR).
+#### Konzept: 
+Das Labyrinth befindet sich in einem verzauberten Frühlings Wald, welcher mit verschiedenen Leuchtenden Kreaturen und Pflanzen besiedelt ist. Des Ziel ist es mit seiner Lampe 3 verschiedene Magische Tiere einzusammeln und zu einem großen Baum in der Mitte des Irrgartens zu bringen. Dafür erhält man im Gegenzug einen Schlüssel, um die Tür am Ende des Labyrinths aufzusperren. Mindestens eins dieser Tiere kann nur durch lösen eines Rätsels oder einer Aufgabe erreicht werden.
+#### Layout 
+Am Eingang des Maze findet man eine Lampe, welche für den Rest des Spiels essenziell ist. Der Ausgang ist durch eine große Tür versperrt welch nur mit passendem Schlüssel geöffnet werden kann.
+Durch leichtes Flügelflattern und Rascheln wird der Spieler in Richtung der Motten geleitet. (OPTINAL: leuchtende wurzeln die leicht um die Ecke wachsen geben ebenso einen kleinen Hinweis.) Wenn man die Lampe in Richtung der Motten hält schwirren sie hinein und können transportiert werden (Animation Optional)
+Der Weg wird an einer Stelle durch eine tiefe Schlucht blockiert. Der Spieler muss mit einer Leuchtenden Kugel eine Zielscheibe treffen, um eine Brücke erscheinen zu lassen.
+Tiefer im Labyrinth findet man einen großen Baum dessen Krone weit über die Mauern ragt, von ihm ist Vogelgezwitscher zu hören. Stellt man seine Lampe vor ihm ab, wird das jeweilige gesammelt Tier freigelassen, und eines von drei lichtern leuchtet vor dem Baum auf.
+Sind alle drei Tiere abgeliefert, erhält der Spieler als Belohnung einen den Schüssel zum Ausgang 
+
 
 ### Development platform: 
 OS: Windows 10, Game Engine: Unity 2019.1.14f1, Visual Studio 2019, Steam,  
@@ -27,16 +34,19 @@ Tested on Oculus Rift S
 
 ### Visuals: 
 Screenshots (concept and experience), Video
+#### Layout Sketch
+![screenshot](https://github.com/4ahmnm2021-G3-G4/01-maze-audiocode-sfeld/blob/AudioSources/layout.png?raw=true)
 
 ### Third party material: 
 (if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
 
 ### Project state: 
-2%/100% finished
+40%/100% finished
 <progress max="100" value="2"></progress>
 
 ### Limitations: 
+My own incompetents ): 
 
 ### Lessons Learned: 
 
-Copyright by smeerws :)
+Copyright by Sfeld :(

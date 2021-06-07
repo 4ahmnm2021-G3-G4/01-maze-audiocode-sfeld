@@ -6,19 +6,24 @@ public class AnimateDoor : MonoBehaviour
 {
 
     public Vector3 rotationStepSize;
-    public Vector3 closeRotation;
+    public Vector3 closeRotation; 
+    
 
     public float speed = 1.0F;
     private float startTime;
     public float Speed;
     // Start is called before the first frame update
 
-    public void closeDoor()
+    public void CloseDoor()
     {
         
-        StartCoroutine(RotateDoor());
+        StartCoroutine(RotateDoor(rotationStepSize));
     }
-    IEnumerator RotateDoor()
+    public void OpenDoor()
+    {
+        StartCoroutine(RotateDoor(-rotationStepSize));
+    }
+    IEnumerator RotateDoor(Vector3 rotationStepSize)
     {
         while(gameObject.transform.rotation.eulerAngles.y > closeRotation.y)
         {

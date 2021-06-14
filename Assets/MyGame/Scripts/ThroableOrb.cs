@@ -55,8 +55,12 @@ public class ThroableOrb : MonoBehaviour
         }
         else
             print("wrong collider"); 
+        
     }
 
-  
-    
+    private void OnTriggerEnter(Collider other)
+    {
+        
+    }
+
 }

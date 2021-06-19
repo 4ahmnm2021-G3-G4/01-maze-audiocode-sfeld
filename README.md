@@ -41,11 +41,18 @@ Screenshots (concept and experience), Video
 (if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
 
 Sounds: Fresound and the BBC Library, 
+
 Wall Texture: Textures.com 
+
 Lamp Model: https://sketchfab.com/3d-models/lantern-f0b0ea89f20b4f10bb583c449ae04d9c
-Trees and Folliige: Unity Assets Store "Nature Starter Kit 2" 
+
+Trees and Folliige: Unity Assets Store "Nature Starter Kit 2" , ALP8310
+Grass Flowers Pack Free
+
 Skybox: Unity Asset Store "AllSky Free - 10 Sky / Skybox Set" 
+
 Magic Tree Mosdell: Vici 
+
 Wood Planks: "Wood Plank" (https://skfb.ly/6pVzI) by DAYlirious is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
 

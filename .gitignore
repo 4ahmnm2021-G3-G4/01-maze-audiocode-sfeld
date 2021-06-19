@@ -9,23 +9,11 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
-
-/[Aa]ssets/SteamVR/
-/[Aa]ssets/SteamVR_Input/
-/[Aa]ssets/SteamVR_Resources/
-/[Aa]ssets/StreamingAssets/
-/[Aa]ssets/ResonanceAudio/
-
-Assets/ResonanceAudio.meta
-Assets/SteamVR.meta
-Assets/SteamVR_Input.meta
-Assets/SteamVR_Resources.meta
-Assets/StreamingAssets.meta
+/[Pp]ackages/
 
 
 
 
-/Packages/
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
@@ -74,3 +62,17 @@ crashlytics-build.properties
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
+© 2021 GitHub, Inc.
+
+/[Aa]ssets/SteamVR/
+/[Aa]ssets/SteamVR_Input/
+/[Aa]ssets/SteamVR_Resources/
+/[Aa]ssets/StreamingAssets/
+/[Aa]ssets/ResonanceAudio/
+
+
+Assets/ResonanceAudio.meta
+Assets/SteamVR.meta
+Assets/SteamVR_Input.meta
+Assets/SteamVR_Resources.meta
+Assets/StreamingAssets.meta

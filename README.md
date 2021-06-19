@@ -40,6 +40,15 @@ Screenshots (concept and experience), Video
 ### Third party material: 
 (if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
 
+Sounds: Fresound and the BBC Library, 
+Wall Texture: Textures.com 
+Lamp Model: https://sketchfab.com/3d-models/lantern-f0b0ea89f20b4f10bb583c449ae04d9c
+Trees and Folliige: Unity Assets Store "Nature Starter Kit 2" 
+Skybox: Unity Asset Store "AllSky Free - 10 Sky / Skybox Set" 
+Magic Tree Modell: Vici
+
+
+
 ### Project state: 
 40%/100% finished
 <progress max="100" value="2"></progress>
@@ -49,4 +58,4 @@ My own incompetents ):
 
 ### Lessons Learned: 
 
-Copyright by Sfeld :(
+Copyright by Sfeld ( •_•)

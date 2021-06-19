@@ -264,7 +264,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 4bd42d9a33c6ad640b4169f425489f8f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5474,6 +5474,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: lantern
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9224c4d0d056f6e4084b516465a35af0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Lamp
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9224c4d0d056f6e4084b516465a35af0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5660,7 +5665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8849d5b2b243d9545b0f4a5c57813aaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 155799452}
 --- !u!114 &155799454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5832,6 +5837,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.00897606, y: 0.00871784, z: 0.016277045}
   m_Center: {x: 4.3573828e-10, y: -4.3573833e-10, z: -0.0005262254}
+--- !u!114 &155799460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155799451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 400aa2e67d8897a44ad61388aac1ffed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ammountOfCollected: 0
 --- !u!1 &161998066
 GameObject:
   m_ObjectHideFlags: 0
@@ -6089,9 +6107,10 @@ GameObject:
   - component: {fileID: 275614737}
   - component: {fileID: 275614736}
   - component: {fileID: 275614735}
+  - component: {fileID: 275614739}
   m_Layer: 0
   m_Name: PickUp
-  m_TagString: Untagged
+  m_TagString: Collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6168,6 +6187,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &275614739
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275614734}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &349429037
 GameObject:
   m_ObjectHideFlags: 0
@@ -11273,7 +11308,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 4bd42d9a33c6ad640b4169f425489f8f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11586,7 +11621,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 4bd42d9a33c6ad640b4169f425489f8f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11954,7 +11989,6 @@ MonoBehaviour:
   rotationStepSize: {x: 0, y: 1, z: 0}
   closeRotation: {x: 0, y: 28.582, z: 0}
   speed: 1
-  Speed: 0
 --- !u!4 &535117302
 Transform:
   m_ObjectHideFlags: 0
@@ -12648,7 +12682,6 @@ MonoBehaviour:
   rotationStepSize: {x: 0, y: 1, z: 0}
   closeRotation: {x: 0, y: 2.929, z: 0}
   speed: 1
-  Speed: 0
 --- !u!1 &923550459
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class AnimateDoor : MonoBehaviour
@@ -11,7 +10,6 @@ public class AnimateDoor : MonoBehaviour
 
     public float speed = 1.0F;
     private float startTime;
-    public float Speed;
     // Start is called before the first frame update
 
     public void CloseDoor()

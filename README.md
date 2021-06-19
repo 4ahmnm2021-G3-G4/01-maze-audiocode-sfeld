@@ -45,7 +45,8 @@ Wall Texture: Textures.com
 Lamp Model: https://sketchfab.com/3d-models/lantern-f0b0ea89f20b4f10bb583c449ae04d9c
 Trees and Folliige: Unity Assets Store "Nature Starter Kit 2" 
 Skybox: Unity Asset Store "AllSky Free - 10 Sky / Skybox Set" 
-Magic Tree Modell: Vici
+Magic Tree Mosdell: Vici 
+Wood Planks: "Wood Plank" (https://skfb.ly/6pVzI) by DAYlirious is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
 
 

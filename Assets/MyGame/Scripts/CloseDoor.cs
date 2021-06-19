@@ -1,12 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
 
 public class CloseDoor : MonoBehaviour
 {
-    public AnimateDoor animation;
+    public new AnimateDoor animation;
 
-    public enum DoorType
+    public enum DoorType 
     { close, open, lockedOpen};
 
     #pragma warning disable 0649

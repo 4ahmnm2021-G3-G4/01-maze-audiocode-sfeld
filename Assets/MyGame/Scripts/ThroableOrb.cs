@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
 
 public class ThroableOrb : MonoBehaviour
@@ -12,18 +11,19 @@ public class ThroableOrb : MonoBehaviour
     AudioSource source;
     bool isBeingThrown = false;
 
-    GameObject[] BridgePieces;
+    GameObject[] bridgePieces;
 
     private void Start()
     {
-        BridgePieces = GameObject.FindGameObjectsWithTag("BridgePiece");
-        print(BridgePieces.Length.ToString());
-        foreach (GameObject piece in BridgePieces)
+        bridgePieces = GameObject.FindGameObjectsWithTag("BridgePiece");
+        
+        foreach (GameObject piece in bridgePieces)
         {
             piece.SetActive(false);
         }
-          print(BridgePieces.Length.ToString());
+          
         defaultPos = gameObject.transform.position; 
+
         source = GetComponent<AudioSource>(); 
     }
     public void playThrowSound()
@@ -42,12 +42,14 @@ public class ThroableOrb : MonoBehaviour
             source.Play();
            
    
-            foreach (GameObject piece in BridgePieces)
+            foreach (GameObject piece in bridgePieces)
             {
                 piece.SetActive(true);
             }
 
         }
+
+        //resets ball back to it's initail position so it can be thrown again
         else if (isBeingThrown)
         {
             isBeingThrown = false;
@@ -58,9 +60,6 @@ public class ThroableOrb : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        
-    }
+    
 
 }

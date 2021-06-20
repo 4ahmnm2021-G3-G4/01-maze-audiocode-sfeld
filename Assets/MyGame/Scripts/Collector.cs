@@ -3,12 +3,15 @@
 public class Collector : MonoBehaviour
 {
     public int ammountOfCollected;
+    public AudioClip pickUpSound; 
     
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Collectable")
         {
             ammountOfCollected++;
+            GetComponent<AudioSource>().clip = pickUpSound;
+            GetComponent<AudioSource>().Play(); 
 
             //parent paricles or kois to the lamp so they'll follow the player; 
 

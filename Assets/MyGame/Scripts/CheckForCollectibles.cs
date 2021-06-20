@@ -1,5 +1,4 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 
 public class CheckForCollectibles : MonoBehaviour
 {
@@ -8,13 +7,17 @@ public class CheckForCollectibles : MonoBehaviour
 
     private void Start()
     {
+        //only active objects can be found so I'm saving them in a variable before deactivating
+
         key = GameObject.FindGameObjectWithTag("Key");
         key.SetActive(false);
+
         foreach (GameObject sphere in spheres)
         {
             sphere.SetActive(false);
         }
     }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Lamp") 

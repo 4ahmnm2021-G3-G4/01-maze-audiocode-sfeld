@@ -1,23 +1,24 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Collector : MonoBehaviour
 {
     public int ammountOfCollected;
     
-
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Collectable")
         {
             ammountOfCollected++;
 
-            if(collision.transform.Find("Particle System"))
+            //parent paricles or kois to the lamp so they'll follow the player; 
+
+            if (collision.transform.Find("Particle System"))
             {
             Transform particles = collision.transform.Find("Particle System");
-            particles.SetParent(transform); //parent paricles to the lamp so they'll follow the player;    
+            particles.SetParent(transform);    
             particles.localScale = new Vector3(1, 1, 1); //correct for the scale change from parenting; 
             }
+
             else if (collision.transform.parent.Find("Kois"))
             {
                 Transform kois = (collision.transform.parent.Find("Kois"));
@@ -27,8 +28,6 @@ public class Collector : MonoBehaviour
             }
 
             Destroy(collision.gameObject); 
-
-
 
         }
     }

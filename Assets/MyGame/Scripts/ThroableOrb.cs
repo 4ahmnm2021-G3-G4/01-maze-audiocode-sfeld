@@ -1,5 +1,4 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ThroableOrb : MonoBehaviour
 {
@@ -59,9 +58,7 @@ public class ThroableOrb : MonoBehaviour
             isBeingThrown = false;
             gameObject.transform.position = defaultPos; 
         }
-        else
-            print("wrong collider"); 
-        
+             
     }
 
     

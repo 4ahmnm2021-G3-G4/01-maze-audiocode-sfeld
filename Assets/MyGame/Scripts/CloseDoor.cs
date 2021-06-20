@@ -43,6 +43,8 @@ public class CloseDoor : MonoBehaviour
                     {
                         Destroy(GetComponent<Collider>());
                         AudioSource source = GetComponent<AudioSource>();
+
+                        //I use a corutine here so the unlock and open sounds don't overlap
                         StartCoroutine(WaitForCloseSound(source));                      
                       
                     }
@@ -55,6 +57,8 @@ public class CloseDoor : MonoBehaviour
     {
         source.Play();
         yield return new WaitForSeconds(1.2f);
+
+        //door gets opened after unlock sound finished playing; 
         animation.OpenDoor();
 
     }

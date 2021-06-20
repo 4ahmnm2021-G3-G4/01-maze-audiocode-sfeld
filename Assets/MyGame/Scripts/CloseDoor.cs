@@ -1,4 +1,4 @@
-﻿
+﻿using System.Collections;
 using UnityEngine;
 
 public class CloseDoor : MonoBehaviour
@@ -24,7 +24,8 @@ public class CloseDoor : MonoBehaviour
                 {             
                      if (other.gameObject.tag == "Player")
                     {
-                    animation.CloseDoor();
+                        animation.CloseDoor();
+                        Destroy(GetComponent<Collider>());
                     }
                     break;
                 }
@@ -40,11 +41,24 @@ public class CloseDoor : MonoBehaviour
                 {
                     if (other.gameObject.tag == "Key")
                     {
-                        animation.OpenDoor();
+                        Destroy(GetComponent<Collider>());
+                        AudioSource source = GetComponent<AudioSource>();
+                        StartCoroutine(WaitForCloseSound(source));                      
+                      
                     }
                     break;
                 }
         }
-      //
+
+
+        
     }
+    IEnumerator WaitForCloseSound(AudioSource source)
+    {
+        source.Play();
+        yield return new WaitForSeconds(1.2f);
+        animation.OpenDoor();
+
+    }
+    
 }

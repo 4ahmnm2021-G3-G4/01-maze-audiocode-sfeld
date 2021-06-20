@@ -49,6 +49,8 @@ Lamp Model: https://sketchfab.com/3d-models/lantern-f0b0ea89f20b4f10bb583c449ae0
 Trees and Folliige: Unity Assets Store "Nature Starter Kit 2" , ALP8310
 Grass Flowers Pack Free
 
+Fireflie Tutorial + Sprites: https://youtu.be/41hAlLk8AiQ
+
 Skybox: Unity Asset Store "AllSky Free - 10 Sky / Skybox Set" 
 
 Magic Tree Mosdell: Vici 
@@ -57,6 +59,11 @@ Wood Planks: "Wood Plank" (https://skfb.ly/6pVzI) by DAYlirious is licensed unde
 
 Lock Model: "low_poly_lock" (https://skfb.ly/6TLZw) by samuglz6 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
+Fish Model: "Koi Fish" (https://skfb.ly/6SuYV) by lesliestowe is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/). 
+
+Key Model: "Old Key" (https://skfb.ly/6QZC6) by TheFalkonett is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/). 
+
+Radio Model: "Vintage radio" (https://skfb.ly/6pMHX) by Fabian van Dorst is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
 
 ### Project state: 

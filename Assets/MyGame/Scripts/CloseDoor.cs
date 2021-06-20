@@ -13,7 +13,8 @@ public class CloseDoor : MonoBehaviour
     #pragma warning disable 0649
 
 
-
+    //switch stateme to avoid having to use else if chains
+    //and it also reads way cleaner 
     private void OnTriggerEnter(Collider other)
     {
 
@@ -29,7 +30,7 @@ public class CloseDoor : MonoBehaviour
                 }
             case DoorType.open:
                 {
-                    if (other.gameObject.tag == "Player") ;
+                    if (other.gameObject.tag == "Player") 
                     {
                         animation.OpenDoor();
                     }

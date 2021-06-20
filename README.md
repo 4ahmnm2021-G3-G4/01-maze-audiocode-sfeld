@@ -53,7 +53,9 @@ Skybox: Unity Asset Store "AllSky Free - 10 Sky / Skybox Set"
 
 Magic Tree Mosdell: Vici 
 
-Wood Planks: "Wood Plank" (https://skfb.ly/6pVzI) by DAYlirious is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+Wood Planks: "Wood Plank" (https://skfb.ly/6pVzI) by DAYlirious is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/). 
+
+Lock Model: "low_poly_lock" (https://skfb.ly/6TLZw) by samuglz6 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
 
 

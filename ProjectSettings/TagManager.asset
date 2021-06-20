@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - BridgePiece
+  - Lamp
+  - Collectable
   layers:
   - Default
   - TransparentFX

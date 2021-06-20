@@ -65,7 +65,13 @@ Key Model: "Old Key" (https://skfb.ly/6QZC6) by TheFalkonett is licensed under C
 
 Radio Model: "Vintage radio" (https://skfb.ly/6pMHX) by Fabian van Dorst is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
-Tartget Model: "Target (archery)" (https://skfb.ly/onQWU) by Arkikon is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+Tartget Model: "Target (archery)" (https://skfb.ly/onQWU) by Arkikon is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/). 
+
+Altar Model: "blood altar" (https://skfb.ly/6WQBx) by runsbuns is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/). 
+
+Rock Model: Unity Assets Store: "Rock package" 
+
+Water Shader: "Unity Standard Assets 2018.4"
 
 
 ### Project state: 

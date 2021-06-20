@@ -3,8 +3,10 @@ using UnityEngine;
 
 public class ThroableOrb : MonoBehaviour
 {
-    public AudioClip throwSound;
+   
     public AudioClip hitSound;
+    public AudioClip throwSound;
+    public AudioClip bridgeApearSound; 
 
     public GameObject target;
     public Vector3 defaultPos; 
@@ -35,18 +37,20 @@ public class ThroableOrb : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        source.clip = hitSound;
+        source.Play();
         if (collision.gameObject == target)
         {
             print("collide with target");
-            source.clip = hitSound;
-            source.Play();
-           
-   
+
+            source.clip = bridgeApearSound;
+            source.Play(1000);
+
             foreach (GameObject piece in bridgePieces)
             {
                 piece.SetActive(true);
             }
-
+            
         }
 
         //resets ball back to it's initail position so it can be thrown again

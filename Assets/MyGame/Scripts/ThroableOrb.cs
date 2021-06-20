@@ -28,7 +28,7 @@ public class ThroableOrb : MonoBehaviour
 
         source = GetComponent<AudioSource>(); 
     }
-    public void playThrowSound()
+    public void PlayThrowSound()
     {
         isBeingThrown = true;
         source.clip = throwSound;

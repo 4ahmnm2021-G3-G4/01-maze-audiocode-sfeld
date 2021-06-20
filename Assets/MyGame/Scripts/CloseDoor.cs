@@ -48,11 +48,9 @@ public class CloseDoor : MonoBehaviour
                     }
                     break;
                 }
-        }
-
-
-        
+        }   
     }
+
     IEnumerator WaitForCloseSound(AudioSource source)
     {
         source.Play();

@@ -7,7 +7,7 @@ Das Labyrinth befindet sich in einem verzauberten Frühlingswald, welcher mit ve
 Am Eingang des Maze findet man eine Lampe, welche für den Rest des Spiels essenziell ist. Der Ausgang ist durch eine große Tür versperrt welche nur mit passendem Schlüssel geöffnet werden kann.
 Durch leichtes Flügelflattern und Rascheln wird der Spieler in Richtung der Motten geleitet. (OPTIONAL: leuchtende Wurzeln die leicht um die Ecke wachsen geben ebenso einen kleinen Hinweis.) Wenn man die Lampe in Richtung der Motten hält schwirren sie hinein und können transportiert werden (Animation Optional)
 Der Weg wird an einer Stelle durch eine tiefe Schlucht blockiert. Der Spieler muss mit einer leuchtenden Kugel eine Zielscheibe treffen, um eine Brücke erscheinen zu lassen.
-Tiefer im Labyrinth findet man einen großen Baum dessen Krone weit über die Mauern ragt, von ihm ist Vogelgezwitscher zu hören. Stellt man seine Lampe vor ihm ab, wird das jeweilige gesammelt Tier freigelassen, und eines von drei lichtern leuchtet vor dem Baum auf.
+Tiefer im Labyrinth findet man einen großen Baum dessen Krone weit über die Mauern ragt, von ihm ist Vogelgezwitscher zu hören. Stellt man seine Lampe vor ihm ab, leuchte eines der Lichter vor dem Baum auf.
 Sind alle drei Tiere abgeliefert, erhält der Spieler als Belohnung einen den Schüssel zum Ausgang 
 
 
@@ -75,7 +75,7 @@ Water Shader: "Unity Standard Assets 2018.4"
 
 
 ### Project state: 
-80%/100% finished
+99%/100% finished
 <progress max="100" value="2"></progress>
 
 ### Limitations: 
@@ -84,6 +84,8 @@ My inability to spell anything right :(
 
 ### Lessons Learned: 
 How to use enums in combination with switch statements
+
+How to add dynamic foliagge
 
 
 Copyright by Sfeld ( •_•)

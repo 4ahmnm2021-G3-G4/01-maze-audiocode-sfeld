@@ -40,38 +40,50 @@ Screenshots (concept and experience), Video
 ### Third party material: 
 (if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
 
-Sounds: Fresound and the BBC Library, 
 
-Wall Texture: Textures.com 
+**Sounds** 
 
-Lamp Model: https://sketchfab.com/3d-models/lantern-f0b0ea89f20b4f10bb583c449ae04d9c
+ - Sounds: Fresound and the BBC Library,
 
-Trees and Folliage: Unity Assets Store "Nature Starter Kit 2" , ALP8310
-Grass Flowers Pack Free
+**Code**
 
-Firefly Tutorial + Sprites: https://youtu.be/41hAlLk8AiQ
+ - Enum with switch case c# https://stackoverflow.com/questions/15136134/c-sharp-how-to-use-enum-with-switch
 
-Skybox: Unity Asset Store "AllSky Free - 10 Sky / Skybox Set" 
+**Other** 
+ - Water Shader: "Unity Standard Assets 2018.4" 
+ -   Skybox: Unity Asset Store "AllSky Free - 10 Sky / Skybox Set"
+- Firefly Tutorial + Sprites: https://youtu.be/41hAlLk8AiQ
+- 
+**Textures** 
+ - Wall Texture: Textures.com
 
-Magic Tree Mosdell: Vici 
+**Models**
+ - Lamp Model:  https://sketchfab.com/3d-models/lantern-f0b0ea89f20b4f10bb583c449ae04d9c
+ - Trees and Folliage: Unity Assets Store "Nature Starter Kit 2" ,
+   ALP8310 Grass Flowers Pack Free
+ 
 
-Wood Planks: "Wood Plank" (https://skfb.ly/6pVzI) by DAYlirious is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/). 
-
-Lock Model: "low_poly_lock" (https://skfb.ly/6TLZw) by samuglz6 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-
-Fish Model: "Koi Fish" (https://skfb.ly/6SuYV) by lesliestowe is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/). 
-
-Key Model: "Old Key" (https://skfb.ly/6QZC6) by TheFalkonett is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/). 
-
-Radio Model: "Vintage radio" (https://skfb.ly/6pMHX) by Fabian van Dorst is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-
-Tartget Model: "Target (archery)" (https://skfb.ly/onQWU) by Arkikon is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/). 
-
-Altar Model: "blood altar" (https://skfb.ly/6WQBx) by runsbuns is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/). 
-
-Rock Model: Unity Assets Store: "Rock package" 
-
-Water Shader: "Unity Standard Assets 2018.4"
+ - Magic Tree Mosdell: Vici
+ - Wood Planks Model: "Wood Plank" (https://skfb.ly/6pVzI) by DAYlirious is
+   licensed under Creative Commons Attribution
+   (http://creativecommons.org/licenses/by/4.0/).
+ - Lock Model: "low_poly_lock" (https://skfb.ly/6TLZw) by samuglz6 is
+   licensed under Creative Commons Attribution
+   (http://creativecommons.org/licenses/by/4.0/).
+ - Fish Model: "Koi Fish" (https://skfb.ly/6SuYV) by lesliestowe is
+   licensed under Creative Commons Attribution
+   (http://creativecommons.org/licenses/by/4.0/).
+ - Key Model: "Old Key" (https://skfb.ly/6QZC6) by TheFalkonett is
+   licensed under Creative Commons Attribution
+   (http://creativecommons.org/licenses/by/4.0/).
+   (http://creativecommons.org/licenses/by/4.0/).
+ - Tartget Model: "Target (archery)" (https://skfb.ly/onQWU) by Arkikon
+   is licensed under Creative Commons Attribution
+   (http://creativecommons.org/licenses/by/4.0/).
+ - Altar Model: "blood altar" (https://skfb.ly/6WQBx) by runsbuns is
+   licensed under Creative Commons Attribution
+   (http://creativecommons.org/licenses/by/4.0/).
+ - Rock Model: Unity Assets Store: "Rock package"
 
 
 ### Project state: 

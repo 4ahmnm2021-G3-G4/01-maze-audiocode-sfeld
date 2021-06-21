@@ -51,12 +51,19 @@ public class ThroableOrb : MonoBehaviour
             }
             
         }
+        if(collision.gameObject.tag == "Water")
+        {
+            isBeingThrown = false;
+            gameObject.transform.position = defaultPos;
+            gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        }
 
         //resets ball back to it's initail position so it can be thrown again
         else if (isBeingThrown)
         {
             isBeingThrown = false;
-            gameObject.transform.position = defaultPos; 
+            gameObject.transform.position = defaultPos;
+            gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
         }
              
     }

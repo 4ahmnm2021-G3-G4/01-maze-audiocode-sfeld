@@ -8,6 +8,7 @@ TagManager:
   - Lamp
   - Collectable
   - Key
+  - Water
   layers:
   - Default
   - TransparentFX

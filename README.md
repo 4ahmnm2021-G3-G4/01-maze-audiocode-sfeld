@@ -33,6 +33,9 @@ Oculus Rift/S, Vive;
 Tested on Oculus Rift S
 
 ### Visuals: 
+![screenshot](https://github.com/4ahmnm2021-G3-G4/01-maze-audiocode-sfeld/blob/main/Playtest.mp4)
+
+
 Screenshots (concept and experience), Video
 #### Layout Sketch
 ![screenshot](https://github.com/4ahmnm2021-G3-G4/01-maze-audiocode-sfeld/blob/AudioSources/layout.png?raw=true)
